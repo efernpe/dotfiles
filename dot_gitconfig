@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = master
+[user]
+        email = 28553108+pedrofernandesxyz@users.noreply.github.com
+        name = Pedro Henrique Fernandes
+[core]
+        editor = nvim
