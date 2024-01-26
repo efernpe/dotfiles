@@ -39,4 +39,7 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
+
+    -- rosé-pine
+    use { 'rose-pine/neovim' }
 end)
