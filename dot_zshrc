@@ -8,6 +8,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh_profile
+source $HOME/.zsh_aliases
 
 # homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
