@@ -5,3 +5,4 @@
         name = Pedro Henrique Fernandes
 [core]
         editor = nvim
+	pager = less
