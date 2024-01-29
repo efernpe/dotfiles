@@ -7,3 +7,4 @@ export DOTFILES=$HOME/.dotfiles
 export PATH=$PATH:$HOME/.local/scripts
 
 bindkey -s ^f "tmux-sessionizer\n"
+bindkey -s ^e "nvim\n"
