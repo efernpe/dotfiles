@@ -3,7 +3,7 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 	-- packer
-	use 'wbthomason/packer.nvim'	
+	use 'wbthomason/packer.nvim'
 
 	-- telescope
 	use {
