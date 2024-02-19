@@ -4,7 +4,7 @@ ZSH_THEME="agnoster"
 
 zstyle ':omz:update' mode reminder
 
-plugins=(git docker vi-mode)
+plugins=(git docker docker-compose vi-mode mvn)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh_profile
