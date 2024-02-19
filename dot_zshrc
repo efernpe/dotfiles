@@ -25,3 +25,6 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # rust
 # export PATH=$PATH:$HOME/.cargo/bin
 source "$HOME/.cargo/env"
+
+# zoxide
+eval "$(zoxide init zsh)"
