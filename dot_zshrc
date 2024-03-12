@@ -4,7 +4,7 @@ ZSH_THEME="robbyrussell"
 
 zstyle ':omz:update' mode reminder
 
-plugins=(git docker docker-compose mvn)
+plugins=(git docker docker-compose mvn vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh_profile
@@ -32,3 +32,6 @@ eval "$(zoxide init zsh)"
 # sdkman
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# tmux
+if [ "$TMUX" = "" ]; then tmux new -s default; fi
