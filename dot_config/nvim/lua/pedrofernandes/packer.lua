@@ -42,4 +42,19 @@ return require('packer').startup(function(use)
 
     -- rosé-pine
     use { 'rose-pine/neovim' }
+
+    -- autoclose
+    use 'm4xshen/autoclose.nvim'
+
+    -- git gutter
+    use 'airblade/vim-gitgutter'
+
+    -- lazyvim
+    use({
+        "kdheepak/lazygit.nvim",
+        requires = {
+            "nvim-lua/plenary.nvim",
+        },
+
+    })
 end)
