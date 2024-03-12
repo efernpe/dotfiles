@@ -30,6 +30,6 @@ vim.keymap.set('n', '<leader>x', '<cmd>!chmod +x %<CR>', { silent = true })
 
 vim.keymap.set('n', '<CR>', 'o<Esc>')
 
-vim.keymap.set('n', '<C-s>', ':w<CR>')
-vim.keymap.set('n', '<C-q>', ':q<CR>')
-vim.keymap.set('n', '<C-i>', ':e .<CR>')
+vim.keymap.set('n', 'gn', ':bnext<CR>')
+vim.keymap.set('n', 'gp', ':bprevious<CR>')
+vim.keymap.set('n', 'gx', ':bdelete<CR>')
