@@ -1,3 +1,0 @@
-alias vim="nvim"
-alias vi="nvim"
-alias take='() { mkdir -p $1 && cd $_ }'
